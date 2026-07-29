@@ -451,7 +451,7 @@ function Principal() {
 
                         <div className="mt-4">
                             <div className="cv-contact-row">
-                                <img src="/src/assets/brand-gmail.png" alt="" />
+                                <img src="../assets/brand-gmail.png" alt="" />
                                 <p>alexisquisperamos567@gmail.com</p>
                             </div>
                             <div className="cv-contact-row">
