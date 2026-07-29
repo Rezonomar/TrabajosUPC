@@ -4,6 +4,7 @@ import {ref, get} from 'firebase/database'
 import { useEffect, useState, useRef } from 'react';
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
+import iconoGmail from '../assets/brand-gmail.png';
 
 function Principal() {
 
@@ -451,7 +452,7 @@ function Principal() {
 
                         <div className="mt-4">
                             <div className="cv-contact-row">
-                                <img src="../assets/brand-gmail.png" alt="" />
+                                <img src={iconoGmail} alt="" />
                                 <p>alexisquisperamos567@gmail.com</p>
                             </div>
                             <div className="cv-contact-row">
