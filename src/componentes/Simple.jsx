@@ -9,7 +9,6 @@ function Simple(){
     const cvRef = useRef(null);
 
     const [objetivo, setObjetivo] = useState("");
-
     const [perfil, setPerfil] = useState("");
     const [educacion, setEducacion] = useState("");
     const [experiencia, setExperiencia] = useState("");
