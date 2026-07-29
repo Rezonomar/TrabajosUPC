@@ -199,7 +199,7 @@ function Simple(){
                 Descargar como PDF
             </button>
             <a
-                href="http://192.168.1.3:5173/"
+                href="/"
                 className="link-ver-mas"
             >
                 Ver más →
