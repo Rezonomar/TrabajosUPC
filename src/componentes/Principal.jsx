@@ -5,6 +5,9 @@ import { useEffect, useState, useRef } from 'react';
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
 import iconoGmail from '../assets/brand-gmail.png';
+import iconoLocation from '../assets/current-location.png';
+import iconoPersona from '../assets/Logo_Persona.png';
+import iconoPhone from '../assets/phone-ringing (1).png';
 
 function Principal() {
 
@@ -447,7 +450,7 @@ function Principal() {
                     <div className="cv-sidebar-content">
 
                         <div className="cv-photo-ring">
-                            <img src="/src/assets/Logo_Persona.png" alt="Foto de perfil" />
+                            <img src={iconoPersona} alt="Foto de perfil" />
                         </div>
 
                         <div className="mt-4">
@@ -456,11 +459,11 @@ function Principal() {
                                 <p>alexisquisperamos567@gmail.com</p>
                             </div>
                             <div className="cv-contact-row">
-                                <img src="/src/assets/phone-ringing (1).png" alt="" />
+                                <img src={iconoPhone} alt="" />
                                 <p>921514698</p>
                             </div>
                             <div className="cv-contact-row">
-                                <img src="/src/assets/current-location.png" alt="" />
+                                <img src={iconoLocation} alt="" />
                                 <p>Villa María del Triunfo</p>
                             </div>
                         </div>
